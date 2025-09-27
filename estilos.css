@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #000;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+header nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+
+.menu {
+  border: 1px solid #000;
+  padding: 6px 12px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  background: #f2f2f2;
+  position: relative;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.tag {
+  display: inline-block;
+  background: #dce9f8;
+  color: #333;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+}
+
+.date {
+  font-size: 12px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.subgrid {
+  display: grid;
+  gap: 20px;
+}
+
+.see-btn {
+  display: inline-block;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+.anuncio {
+  background: #cfe6f0;
+  padding: 20px;
+}
+
+.anuncio a {
+  font-size: 14px;
+  text-decoration: none;
+  color: #000;
+}
+
+/* Mostrar/Ocultar */
+.ocultar {
+  display: none;
+}
+
+.mostrar {
+  display: block;
+}
+
+.post {
+  font-weight: bold;
+  padding: 20px;
+  border: solid 1px lightBlue;
+  margin: 10px 0;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.fotos img {
+  width: 100px;
+  margin: 5px;
+  border-radius: 10px;
+}

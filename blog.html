@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BlogSpot</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo"><strong>Blog Spot.</strong></div>
+      <nav>
+        <a href="#">Artículos</a>
+        <a href="#">Radio</a>
+        <a href="#">Podcast</a>
+        <a href="#">Sé escritor</a>
+        <a href="#">Contáctanos</a>
+      </nav>
+      <div class="menu">Menú</div>
+    </header>
+
+    <h1>Lo mejor de la semana</h1>
+
+    <div class="grid">
+      <div class="card">
+        <img src="https://picsum.photos/600/400" alt="viaje">
+        <div class="card-content">
+          <div class="date">06 Sep, 2022</div>
+          <div class="tag">Viajes</div>
+          <h3>Llega a tus destinos soñados con Travel Pro</h3>
+          <!-- Botón MAS -->
+          <button id="mas">Más info</button>
+        </div>
+      </div>
+
+      <div class="subgrid">
+        <!-- Bloque Anuncio -->
+        <div class="card anuncio">
+          <div class="tag">Anuncio</div>
+          <h3>Hazte miembro BROADCAST<br>Charlas reales en el mundo corporativo</h3>
+          <a href="#">Saber más</a>
+          <!-- Botón VER TODOS -->
+          <button id="verTodos">Ver todos</button>
+
+          <!-- Contenido que aparece debajo -->
+          <div id="cuadros" class="ocultar">
+            <div class="post">Artículo destacado 1</div>
+            <div class="post">Artículo destacado 2</div>
+            <div class="post">Artículo destacado 3</div>
+          </div>
+        </div>
+
+        <!-- Bloque Moda -->
+        <div class="card" style="position:relative;">
+          <img src="https://picsum.photos/400/400" alt="moda">
+          <!-- Botón VER FOTOS -->
+          <button id="verFotos" class="see-btn">Ver fotos →</button>
+
+          <!-- Galería debajo -->
+          <div id="galeria" class="ocultar fotos">
+            <img src="https://picsum.photos/200/200" alt="foto1">
+            <img src="https://picsum.photos/201/200" alt="foto2">
+            <img src="https://picsum.photos/202/200" alt="foto3">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
